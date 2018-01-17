@@ -42,3 +42,20 @@ public:
         cout << endl;
     };
 };
+
+int main()
+    { 
+	SpeciesBeruang BeruangA("Royal Bear","Ursus Martimus", "Laut", 
+	"Putih","Beruang Kutub", 100, 2 , 5);
+	
+	 SpeciesBeruang BeruangB("Ishq Bear","Ursus Thibetanus Laniger", "Pegunungan", 
+	"Hitam","Beruang Hitam Himalaya", 60, 1.5 , 5);
+	
+	SpeciesBeruang BeruangC("Mirror Bear","Ursus Arctos Crowtheri", "Pegunungan Atlas", 
+	"Coklat","Beruang Atlas", 70, 2 , 5);
+
+    BeruangA.Output();
+    BeruangB.Output();
+    BeruangC.Output();
+    return 0;
+}
